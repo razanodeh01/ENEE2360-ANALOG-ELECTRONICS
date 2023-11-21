@@ -1,0 +1,23 @@
+* C:\Users\Support\NewSemester\Elctro\Project\Part2\PART2.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Sat Jul 15 13:06:27 2023
+
+
+
+** Analysis setup **
+.tran 1m 5m 0 1m
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "PART2.net"
+.INC "PART2.als"
+
+
+.probe
+
+
+.END
